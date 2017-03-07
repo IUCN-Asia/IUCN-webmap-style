@@ -6,6 +6,13 @@
         "mapbox:autocomposite": true,
         "mapbox:type": "template"
     },
+    "center": [
+        98.10763710416381,
+        17.0523263132894
+    ],
+    "zoom": 7.225824604401328,
+    "bearing": 0,
+    "pitch": 0,
     "sources": {
         "mapbox": {
             "url": "mapbox://mapbox.mapbox-streets-v7",
@@ -13,15 +20,15 @@
         }
     },
     "sprite": "mapbox://sprites/iucn/cizzl5wif005b2smm59qww0wg",
-    "glyphs": "mapbox://fonts/mapbox/{fontstack}/{range}.pbf",
+    "glyphs": "mapbox://fonts/iucn/{fontstack}/{range}.pbf",
     "layers": [
         {
             "id": "background",
             "type": "background",
             "paint": {
-                "background-color": "#dedede"
-            },
-            "interactive": true
+                "background-color": "#dedede",
+                "background-opacity": 1
+            }
         },
         {
             "id": "landuse_overlay_national_park",
@@ -34,10 +41,9 @@
                 "national_park"
             ],
             "paint": {
-                "fill-color": "#d2edae",
-                "fill-opacity": 0.75
-            },
-            "interactive": true
+                "fill-opacity": 0.75,
+                "fill-color": "#3F9C35"
+            }
         },
         {
             "id": "landuse_park",
@@ -51,8 +57,7 @@
             ],
             "paint": {
                 "fill-color": "#d2edae"
-            },
-            "interactive": true
+            }
         },
         {
             "id": "waterway",
@@ -88,8 +93,7 @@
                         ]
                     ]
                 }
-            },
-            "interactive": true
+            }
         },
         {
             "id": "water",
@@ -97,9 +101,8 @@
             "source": "mapbox",
             "source-layer": "water",
             "paint": {
-                "fill-color": "#a0cfdf"
-            },
-            "interactive": true
+                "fill-color": "#63B1E5"
+            }
         },
         {
             "id": "building",
@@ -108,8 +111,7 @@
             "source-layer": "building",
             "paint": {
                 "fill-color": "#d6d6d6"
-            },
-            "interactive": true
+            }
         },
         {
             "id": "tunnel_minor",
@@ -167,8 +169,7 @@
                     0.36,
                     0.18
                 ]
-            },
-            "interactive": true
+            }
         },
         {
             "id": "tunnel_major",
@@ -223,8 +224,7 @@
                     0.28,
                     0.14
                 ]
-            },
-            "interactive": true
+            }
         },
         {
             "id": "road_minor",
@@ -279,8 +279,7 @@
                         ]
                     ]
                 }
-            },
-            "interactive": true
+            }
         },
         {
             "id": "road_major",
@@ -332,8 +331,7 @@
                         ]
                     ]
                 }
-            },
-            "interactive": true
+            }
         },
         {
             "id": "bridge_minor case",
@@ -400,8 +398,7 @@
                         ]
                     ]
                 }
-            },
-            "interactive": true
+            }
         },
         {
             "id": "bridge_major case",
@@ -465,8 +462,7 @@
                         ]
                     ]
                 }
-            },
-            "interactive": true
+            }
         },
         {
             "id": "bridge_minor",
@@ -520,8 +516,7 @@
                         ]
                     ]
                 }
-            },
-            "interactive": true
+            }
         },
         {
             "id": "bridge_major",
@@ -572,8 +567,7 @@
                         ]
                     ]
                 }
-            },
-            "interactive": true
+            }
         },
         {
             "id": "admin_country",
@@ -620,8 +614,7 @@
                         ]
                     ]
                 }
-            },
-            "interactive": true
+            }
         },
         {
             "id": "poi_label",
@@ -671,8 +664,7 @@
                 "text-halo-width": 1,
                 "text-halo-color": "rgba(255,255,255,0.75)",
                 "text-halo-blur": 1
-            },
-            "interactive": true
+            }
         },
         {
             "id": "road_major_label",
@@ -723,8 +715,7 @@
                 "text-color": "#666",
                 "text-halo-color": "rgba(255,255,255,0.75)",
                 "text-halo-width": 2
-            },
-            "interactive": true
+            }
         },
         {
             "id": "place_label_other",
@@ -775,8 +766,7 @@
                 "text-halo-color": "rgba(255,255,255,0.75)",
                 "text-halo-width": 1,
                 "text-halo-blur": 1
-            },
-            "interactive": true
+            }
         },
         {
             "id": "place_label_city",
@@ -822,8 +812,7 @@
                 "text-halo-color": "rgba(255,255,255,0.75)",
                 "text-halo-width": 1,
                 "text-halo-blur": 1
-            },
-            "interactive": true
+            }
         },
         {
             "id": "country_label",
@@ -861,14 +850,13 @@
                 "text-halo-color": "rgba(255,255,255,0.75)",
                 "text-halo-width": 1,
                 "text-halo-blur": 1
-            },
-            "interactive": true
+            }
         }
     ],
-    "draft": false,
+    "created": "2017-03-07T13:43:19.571Z",
     "id": "cizzl5wif005b2smm59qww0wg",
-    "modified": "2017-03-07T13:43:19.571Z",
+    "modified": "2017-03-07T14:58:32.548Z",
     "owner": "iucn",
     "visibility": "private",
-    "created": "2017-03-07T13:43:19.571Z"
+    "draft": false
 }
